@@ -6,7 +6,7 @@ solved some networkwalks cybersecurity pratical labs using  wireshark
 
 ---
 
-## 📌 Project Overview[cite: 7]
+## 📌 Project Overview
 
 This project is part of the Week 1 Extra Project in the NetworkWalks Cybersecurity Internship 2026. 
 
@@ -88,10 +88,21 @@ The skills practiced in these labs are relevant to:
 * Recognizing network scanning activities.
 
 **Lab Result:**
-`![Lab 3 Result](Lab_3_Result.png)
+![Lab 3 Result](labresult.png)
+**lab view:**
+![Lab 3 view ](lab3packets.png)
+### Step 2. Lab 4 – Follow TCP Stream
+Objective: Analyze TCP communication and investigate information exchanged between network endpoints.
 
-*(Note: Repeat this structure for Labs 4, 5, 6, and 7 based on the images you have)*
+**What I Learned:**
 
+Finding TCP communication ports.
+Identifying communication initiators.
+Understanding TCP stream numbers.
+Examining reconstructed conversations.
+Investigating transmitted information.
+**Lab View:**
+`![Lab 4 view](Lab_3_.png)
 ### Step 6. Lab 8 – VoIP Call Replay
 
 **Objective:** Investigate VoIP communication and understand security risks associated with exposed voice calls.
