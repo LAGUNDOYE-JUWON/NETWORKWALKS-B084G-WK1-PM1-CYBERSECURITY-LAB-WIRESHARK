@@ -88,21 +88,63 @@ The skills practiced in these labs are relevant to:
 * Recognizing network scanning activities.
 
 **Lab Result:**
-![Lab 3 Result](labresult.png)
-**lab view:**
+![Lab 3 Result](lab3result.png)
+**Lab View:**
 ![Lab 3 view ](lab3packets.png)
 ### Step 2. Lab 4 – Follow TCP Stream
 Objective: Analyze TCP communication and investigate information exchanged between network endpoints.
 
 **What I Learned:**
 
-Finding TCP communication ports.
-Identifying communication initiators.
-Understanding TCP stream numbers.
-Examining reconstructed conversations.
-Investigating transmitted information.
+* Finding TCP communication ports.
+* Identifying communication initiators.
+* Understanding TCP stream numbers.
+* Examining reconstructed conversations.
+* Investigating transmitted information.
+  
 **Lab View:**
-`![Lab 4 view](Lab_3_.png)
+`![Lab 4 view](lab4_packets.png)
+
+### Step 3.Lab 5 – Follow TCP Stream, Part 2
+Objective: Investigate TCP communication and identify information hidden within network streams.
+
+**What I Learned:**
+
+* Finding specific pages in captured traffic.
+* Locating hidden information in TCP streams.
+* Identifying access code words.
+* Finding backup server IP addresses.
+* Investigating HTTP status codes and downloaded files.
+**Lab Result:** 
+`![Lab 5 Result](Lab5_Result.png)
+
+###Step 4. Lab 6 – HTTP Plain Text Credentials
+Objective: Investigate credentials transmitted through unencrypted HTTP communication.
+
+**What I Learned:**
+
+* Identifying HTTP traffic.
+* Inspecting HTTP requests and responses.
+* Finding login pages and submitted credentials.
+* Identifying exposed usernames and passwords.
+* Understanding the importance of HTTPS.
+**Lab Result:**
+`![Lab 6 Result](Lab_6Result.png)
+
+### Step 5. Lab 7  Brute Force Catch
+Objective: Investigate network traffic associated with brute-force attacks.
+
+**What I Learned:**
+
+* Understanding brute-force attacks.
+* Identifying attackers and targets.
+* Investigating failed login attempts.
+* Identifying authentication failure codes.
+* Finding successful authentication responses.
+* Recognizing suspicious login patterns.
+  **Lab Result:**
+  `![Lab 7 Result](Lab7_Result.png)
+  
 ### Step 6. Lab 8 – VoIP Call Replay
 
 **Objective:** Investigate VoIP communication and understand security risks associated with exposed voice calls.
@@ -116,7 +158,7 @@ Investigating transmitted information.
 * Understanding SRTP encryption for secure VoIP communication.
 
 **Lab Result:**
- ![Lab 8 Result](Lab_8_Result.png)
+  `![Lab 8 Result](Lab_8_Result.png)
 
 ---
 
@@ -124,7 +166,7 @@ Investigating transmitted information.
 
 | Display Filter | Purpose |
 | :--- | :--- |
-| `tcp.flags.syn == 1` | Display TCP SYN packets |
+| `tcp.flags.syn == 1` | Display TCP SYN packets
 | `tcp.flags.ack == 1` | Display TCP ACK packets. |
 | `tcp` | Display TCP traffic. |
 | `http` | Display HTTP traffic. |
@@ -150,21 +192,7 @@ Through these six Wireshark SOC Labs, I gained practical experience in:
 
 ---
 
-## 📊 Project Results
 
-All six Wireshark SOC Labs were successfully completed.
-
-| Assessment | Result |
-| :--- | :--- |
-| Lab 3 – Identify the Attacker's IP | 100/100 |
-| Lab 4 – Follow TCP Stream | 100/100 |
-| Lab 5 – Follow TCP Stream, Part 2 | 100/100 |
-| Lab 6 – HTTP Plain Text Credentials | 100/100 |
-| Lab 7 – Brute Force Catch | 100/100 |
-| Lab 8 – VoIP Call Replay | 100/100 |
-| **Total Score** | **600/600** |
-
----
 
 ## ✅ Completion Summary
 
